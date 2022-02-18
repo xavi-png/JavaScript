@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    margin: 0;
+    color: #000;
+    background: rgb(174, 220, 68);
+}
+
+h1 {
+    display: block;
+    justify-content: center;
+    font-family: 'Arial' ;
+    color: #fff;
+    width: 400px;
+}
+
+/*FOTOS USUARIOS*/
+#xxx {
+        display: block;
+        justify-content: center;
+        padding-left: 90% ;
+        border-radius: 15px;
+}
+
+img {
+    border-radius: 35px;
+}
+
+/*CONTENIDO*/
+.trivial {
+    display: block;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.preg-head {
+    background-color: #76d36e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: -20px -20px 20px;
+    padding: 15px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+}
+
+.preg-cont {
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    background-color: 100px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+/*BOTONES*/
+
+.preg span{
+    display: block;
+    padding: 8px 15px;
+    background-color: #cbf7e9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.preg:hover span {
+    background-color:#d5df7f ;
+}
+
+.preg input:checked + span {
+    background-color: #3cc3f9;
+}
+
+.preg input {
+    opacity: 0;
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    margin: auto auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #76d36e;
+    color: white;
+    font-family: arial;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+input#op4, #op3, #op2, #op1 {
+    height: 5%;
+}
+
+
+/*TEXTO DE LA RESPUESTA*/
+.pp {
+    display: flex;
+    justify-content: center;
+    color: rgb(41, 11, 214);
+    font-family: 'Arial' ;   
+}

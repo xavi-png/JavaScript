@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(20, 129, 20);
+            padding: 20px;
+        }
+        #btn {
+                background-color: #4CAF50; /* Green */
+                border-radius: 15px;
+                color: white;
+                padding: 6px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 10px;
+            }
+
+        p {
+            font-family: Arial;
+            color: white;
+        }
+    </style>
+
+    <p>Nom: <input type="text" id="user"></p>
+    <p>contrasenya: <input type="password" id="pass1"></p>
+    <p>Repeteix la contrasenya: <input type="password" id="pass2"></p>
+    <input id="btn" onclick="comprovar()" type="button" value="Comprovar">
+
+    <p>Nom: <input type="text" id="nom"></p>
+    <p>Cognom: <input type="text" id="cognom"></p>
+    <input id="btn" onclick="Guardar()" type="button" value="Guardar dades">
+    <input id="btn" onclick="Recuperar()" type="button" value="Recuperar dades">
+    <input id="btn" onclick="Esborrar()" type="button" value="Esborrar dades">
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/storage.js"></script>
+
+</body>
+</html>

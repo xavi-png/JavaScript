@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="calc">
+            <div class="casio"><img src="./img/casio.png" 
+                alt="tupadre"></div>
+        <input type="text" readonly id="resultado">
+        <div id="debresultado">        
+            <button onclick="limpiar()">C</button>
+            <button onclick="limpiar1()"><--</button>
+        </div>
+        <div id="numeros">
+            <div id="Fil">
+                <button onclick="numero('7')">7</button>
+                <button onclick="numero('8')">8</button>
+                <button onclick="numero('9')">9</button>
+                <button onclick="numero('/')">/</button>
+            </div>
+            <div id="Fil">
+                <button onclick="numero('4')">4</button>
+                <button onclick="numero('5')">5</button>
+                <button onclick="numero('6')">6</button>
+                <button onclick="numero('*')">*</button>
+            </div>
+            <div id="Fil">
+                <button onclick="numero('1')">1</button>
+                <button onclick="numero('2')">2</button>
+                <button onclick="numero('3')">3</button>
+                <button onclick="numero('-')">-</button>
+            </div>
+            <div id="Fil">
+                <button onclick="numero('0')">0</button>
+                <button onclick="calc()">=</button>
+                <button onclick="numero('.')">.</button>
+                <button onclick="numero('+')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
